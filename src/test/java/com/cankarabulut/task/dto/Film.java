@@ -2,7 +2,6 @@ package com.cankarabulut.task.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-//hepsini verme benim istediklerimi ver
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Film {
@@ -17,7 +16,7 @@ public class Film {
         return imdbID;
     }
 
-    @JsonProperty("imdbID") //büyüktür küçüktür hikayesi
+    @JsonProperty("imdbID") 
     public void setImdbID(String imdbID) {
         this.imdbID = imdbID;
     }
